@@ -10,7 +10,10 @@
         { "key": "CORE_SECRET", "value": "${ZIPLINE_CORE_SECRET}" },
         { "key": "CORE_HOST", "value": "0.0.0.0" },
         { "key": "CORE_PORT", "value": "3000" },
-        { "key": "CORE_DATABASE_URL", "value": "postgres://tipi:${ZIPLINE_DB_PASSWORD}@zipline-db/zipline" },
+        {
+          "key": "CORE_DATABASE_URL",
+          "value": "postgres://tipi:${ZIPLINE_DB_PASSWORD}@zipline-db/zipline"
+        },
         { "key": "CORE_LOGGER", "value": "true" }
       ],
       "dependsOn": ["zipline-db"],
