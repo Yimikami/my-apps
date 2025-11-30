@@ -16,8 +16,23 @@
   "updated_at": 1764460800000,
   "dynamic_config": true,
   "form_fields": [
-    { "type": "random", "label": "JWT_SECRET", "min": 32, "env_variable": "JWT_SECRET" },
-    { "type": "random", "label": "KUTT_DB_PASSWORD", "min": 24, "env_variable": "KUTT_DB_PASSWORD" },
-    { "type": "fqdn", "label": "KUTT_DEFAULT_DOMAIN", "required": true, "env_variable": "KUTT_DEFAULT_DOMAIN" }
+    {
+      "type": "random",
+      "label": "JWT_SECRET",
+      "min": 32,
+      "env_variable": "JWT_SECRET"
+    },
+    {
+      "type": "random",
+      "label": "KUTT_DB_PASSWORD",
+      "min": 24,
+      "env_variable": "KUTT_DB_PASSWORD"
+    },
+    {
+      "type": "fqdn",
+      "label": "KUTT_DEFAULT_DOMAIN",
+      "required": true,
+      "env_variable": "KUTT_DEFAULT_DOMAIN"
+    }
   ]
 }

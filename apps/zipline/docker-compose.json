@@ -15,8 +15,14 @@
       },
       "dependsOn": ["zipline-db"],
       "volumes": [
-        { "hostPath": "${APP_DATA_DIR}/data/uploads", "containerPath": "/zipline/uploads" },
-        { "hostPath": "${APP_DATA_DIR}/data/public", "containerPath": "/zipline/public" }
+        {
+          "hostPath": "${APP_DATA_DIR}/data/uploads",
+          "containerPath": "/zipline/uploads"
+        },
+        {
+          "hostPath": "${APP_DATA_DIR}/data/public",
+          "containerPath": "/zipline/public"
+        }
       ]
     },
     {
@@ -29,7 +35,10 @@
         "POSTGRES_DB": "zipline"
       },
       "volumes": [
-        { "hostPath": "${APP_DATA_DIR}/data/postgres", "containerPath": "/var/lib/postgresql/data" }
+        {
+          "hostPath": "${APP_DATA_DIR}/data/postgres",
+          "containerPath": "/var/lib/postgresql/data"
+        }
       ],
       "healthCheck": {
         "interval": "10s",
