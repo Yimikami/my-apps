@@ -2,18 +2,32 @@
   "name": "Zipline",
   "id": "zipline",
   "available": true,
-  "short_desc": "File/image hosting and sharing platform with URL shortening.",
-  "author": "diced",
-  "port": 8384,
-  "categories": ["utilities", "media"],
-  "description": "Zipline is an open-source file and image hosting service featuring URL shortening, share links, and an extensible API.",
-  "tipi_version": 1,
+  "short_desc": "A ShareX/file upload server that is easy to use and packed with features.",
+  "author": "https://github.com/diced",
+  "port": 8139,
+  "categories": ["media"],
+  "description": "A ShareX/file upload server that is easy to use, packed with features, and easy to set up.",
+  "tipi_version": 2,
   "version": "latest",
   "source": "https://github.com/diced/zipline",
   "exposable": true,
+  "website": "https://zipline.diced.sh",
   "supported_architectures": ["arm64", "amd64"],
   "created_at": 1764460800000,
   "updated_at": 1764460800000,
   "dynamic_config": true,
-  "form_fields": []
+  "form_fields": [
+    {
+      "type": "random",
+      "label": "ZIPLINE_DB_PASSWORD",
+      "min": 32,
+      "env_variable": "ZIPLINE_DB_PASSWORD"
+    },
+    {
+      "type": "random",
+      "label": "ZIPLINE_CORE_SECRET",
+      "min": 32,
+      "env_variable": "ZIPLINE_CORE_SECRET"
+    }
+  ]
 }
