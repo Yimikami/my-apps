@@ -1,0 +1,19 @@
+{
+  "name": "Kutt",
+  "id": "kutt",
+  "available": true,
+  "short_desc": "Modern open-source URL shortener with analytics and custom domains.",
+  "author": "thedevs-network",
+  "port": 8383,
+  "categories": ["utilities", "social"],
+  "description": "Kutt is an open-source URL shortener with support for custom domains, link expiration, password protection, and basic analytics.",
+  "tipi_version": 1,
+  "version": "latest",
+  "source": "https://github.com/thedevs-network/kutt",
+  "exposable": true,
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1764460800000,
+  "updated_at": 1764460800000,
+  "dynamic_config": true,
+  "form_fields": []
+}

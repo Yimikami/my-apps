@@ -1,0 +1,19 @@
+{
+  "name": "Zipline",
+  "id": "zipline",
+  "available": true,
+  "short_desc": "File/image hosting and sharing platform with URL shortening.",
+  "author": "diced",
+  "port": 8384,
+  "categories": ["utilities", "media"],
+  "description": "Zipline is an open-source file and image hosting service featuring URL shortening, share links, and an extensible API.",
+  "tipi_version": 1,
+  "version": "latest",
+  "source": "https://github.com/diced/zipline",
+  "exposable": true,
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1764460800000,
+  "updated_at": 1764460800000,
+  "dynamic_config": true,
+  "form_fields": []
+}
