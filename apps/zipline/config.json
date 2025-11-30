@@ -7,7 +7,7 @@
   "port": 8139,
   "categories": ["media"],
   "description": "A ShareX/file upload server that is easy to use, packed with features, and easy to set up.",
-  "tipi_version": 2,
+  "tipi_version": 3,
   "version": "latest",
   "source": "https://github.com/diced/zipline",
   "exposable": true,
